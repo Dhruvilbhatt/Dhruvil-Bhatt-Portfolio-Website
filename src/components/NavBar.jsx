@@ -106,7 +106,7 @@ const NavBar = () => {
               </>
             </a>
             <a
-              href="/Resume_Dhruvil_Bhatt.pdf"
+              href="/Dhruvil_Bhatt_Resume.pdf"
               className="text-gray-400 hover:text-gray-200 duration-[200ms]"
               target="_blank"
               rel="noreferrer"
