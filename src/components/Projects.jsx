@@ -34,7 +34,12 @@ function Projects() {
                     </div>
                     <div>
                         <h1>• Coded a real time web app for chatting, synced with Google account. Users can converse with multiple contacts, and can see whether another person is currently logged in or not.</h1>
-                        <h1>• Read messages are differentiated from unread ones by different color codes (Link to web app).</h1>
+                        <h1>• Read messages are differentiated from unread ones by different color codes <a
+                            href="https://whatsapp-clone-client-mern.herokuapp.com"
+                            className="text-yellow-300 duration-[200ms] underline"
+                            target="_blank"
+                            rel="noreferrer"
+                        >(Link to web app)</a>.</h1>
                     </div>
                 </div>
                 <img
@@ -51,7 +56,12 @@ function Projects() {
                     </div>
                     <div>
                         <h1>• Launched a fully responsive social media platform, that allows users to post job seeking/opening information.</h1>
-                        <h1>• Implemented theme toggle, and latest news posting (using Google API) feature on the portal (Link to web app).</h1>
+                        <h1>• Implemented theme toggle, and latest news posting (using Google API) feature on the portal <a
+                            href="https://job-search-website.vercel.app/home"
+                            className="text-yellow-300 duration-[200ms] underline"
+                            target="_blank"
+                            rel="noreferrer"
+                        >(Link to web app)</a>.</h1>
                     </div>
                 </div>
                 <img

@@ -57,12 +57,17 @@ function CustomPF() {
                 />
                 <div style={customStyle} className="p-4 flex flex-col space-y-2">
                     <div className='flex flex-col space-y-1 text-sky-400'>
-                        <h1 className='font-bold text-2xl text-bold'>DA-IICT, Gandhinagar, India</h1>
+                        <h1 className='text-2xl'><span className='font-bold '>DA-IICT</span>, Gandhinagar, India</h1>
                         <h1 className='text-lg italic'>Research Intern</h1>
                         <h1 className='text-lg'>January 2022 - June 2022</h1>
                     </div>
                     <div>
-                        <h1>• Curated the largest open-source dataset (comprising of 7805 datapoint, which is 4 times larger than the previously available largest public dataset) for Corporate Credit Rating with Financial Ratios (Dataset Link).</h1>
+                        <h1>• Curated the largest open-source dataset (comprising of 7805 datapoint, which is 4 times larger than the previously available largest public dataset) for Corporate Credit Rating with Financial Ratios <a
+                            href="https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios"
+                            className="text-yellow-300 duration-[200ms] underline"
+                            target="_blank"
+                            rel="noreferrer"
+                        >(Dataset Link)</a>.</h1>
                         <h1>• Applied ML techniques on our custom dataset to formulate time-independent, simple, and human-interpretable rules which could be used by corporate firms to attain investment grade rating with a mean precision value of 95%.</h1>
                         <h1>• Boosted the interpretability of the results by applying Explainable AI technique (Decision Tree) for prediction and visualization purpose.</h1>
                     </div>
@@ -76,13 +81,18 @@ function CustomPF() {
                 />
                 <div style={customStyle} className="p-4 flex flex-col space-y-2">
                     <div className='flex flex-col space-y-1 text-sky-400'>
-                        <h1 className='font-bold text-2xl text-bold'>Indian Institute of Technology (IIT) – Bombay (Remote)</h1>
+                        <h1 className='text-2xl'><span className='font-bold'>Indian Institute of Technology (IIT) – Bombay</span> (Remote)</h1>
                         <h1 className='text-lg italic'>Summer Intern</h1>
                         <h1 className='text-lg'>April 2020 - June 2020</h1>
                     </div>
                     <div>
                         <h1>• Worked with the content migration team of Drupal CMS.</h1>
-                        <h1>• Built custom plugins for content migration from Drupal 6 and 7 to Drupal 8.</h1>
+                        <h1>• Built custom plugins for content migration from Drupal 6 and 7 to Drupal 8 <a
+                            href="https://static.fossee.in/fossee/fellowship2020/Fellowship-Reports/Web-Development/Web-Development-DhruvilBhatt-FSF-2020.pdf"
+                            className="text-yellow-300 duration-[200ms] underline"
+                            target="_blank"
+                            rel="noreferrer"
+                        >(Fellowship Report)</a>.</h1>
                         <h1>• Explored Drush command line and Drupal UI to migrate Drupal websites.</h1>
                         <h1>• Migrated <span className='italic'>hss.iitb.ac.in</span> from Drupal 7 to 8 without any data loss, using custom-made plugins and other modules.</h1>
                     </div>
@@ -96,7 +106,7 @@ function CustomPF() {
                 />
                 <div style={customStyle} className="p-4 flex flex-col space-y-2">
                     <div className='flex flex-col space-y-1 text-sky-400'>
-                        <h1 className='font-bold text-2xl text-bold'>HuddleUp (Remote)</h1>
+                        <h1 className='text-2xl'><span className='font-bold'>HuddleUp</span> (Remote)</h1>
                         <h1 className='text-lg italic'>Software Engineer Intern</h1>
                         <h1 className='text-lg'>March 2022 - June 2022</h1>
                     </div>
