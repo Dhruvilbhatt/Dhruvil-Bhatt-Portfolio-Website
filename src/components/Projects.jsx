@@ -78,7 +78,7 @@ function Projects() {
                     </div>
                     <div>
                         <h1>• Characterized the unique features that are central to 25 different world cuisines in an attempt to establish inter-relatedness of these world cuisines (using FP-Growth Algorithm).</h1>
-                        <h1>• Generated 3 dendrograms (for distinct distance metrics) to visualize the interrelationship between different world cuisines using the concept of Hierarchical Clustering.</h1>
+                        <h1>• Generated 30 dendrograms (for distinct distance metrics) to visualize the interrelationship between different world cuisines using the concept of Hierarchical Clustering.</h1>
                     </div>
                 </div>
                 <img
