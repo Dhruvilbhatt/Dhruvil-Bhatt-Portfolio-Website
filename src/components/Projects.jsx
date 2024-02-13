@@ -2,6 +2,7 @@ import React from 'react'
 import chatApp from "../assets/portfolio/chat app.jpg";
 import worldCuisine from "../assets/portfolio/worldCuisine.jpg";
 import jobSearch from "../assets/portfolio/jobSearch.jpg";
+import doclab from "../assets/portfolio/DocLab.png";
 
 const customStyle = {
     backgroundColor: "#23252f",
@@ -29,17 +30,33 @@ function Projects() {
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between space-x-4">
                 <div style={customStyle} className="p-4 flex flex-col space-y-2">
                     <div className='flex flex-col space-y-1 text-sky-400'>
+                        <h1 className='text-2xl font-bold'>DocLab - Work Smarter, Collaborate Better</h1>
+                        <h1 className='text-lg'>Tech Stack: <span className='italic'>AWS EC2, React.js, Node.js, Python, Flask, Quill.js, Socket.io, MongoDB</span></h1>
+                    </div>
+                    <div>
+                        <h1>• Worked in a collaborative environment to develop DocLab, an innovative AI-powered document editor featuring auto text correction, paraphrasing, summarization, collaboration, and video calling support.</h1>
+                        <h1>• Consolidated video calling and screen-sharing capabilities, ensuring a low video/audio latency of 300ms.</h1>
+                        <h1>• Deployed the Flask-based AI model on AWS EC2 for scalable and reliable access to DocLab's AI features.</h1>
+                        <h1>• Designed RESTful Web Services and APIs with Axios for seamless frontend-backend communication and MongoDB CRUD operations, ensuring fast page load time (&lt; 2 seconds).</h1>
+                    </div>
+                </div>
+                <img
+                    src={doclab}
+                    alt=""
+                    className="hidden lg:inline-block w-[30%] rounded-md duration-200 hover:scale-105 cursor-pointer"
+                />
+            </div>
+            <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between space-x-4">
+                <div style={customStyle} className="p-4 flex flex-col space-y-2">
+                    <div className='flex flex-col space-y-1 text-sky-400'>
                         <h1 className='text-2xl font-bold'>Real-Time Chat App</h1>
                         <h1 className='text-lg'>Tech Stack: <span className='italic'>React, Node.js, MongoDB, Socket.io, CSS</span></h1>
                     </div>
                     <div>
                         <h1>• Coded a real time web app for chatting, synced with Google account. Users can converse with multiple contacts, and can see whether another person is currently logged in or not.</h1>
-                        <h1>• Read messages are differentiated from unread ones by different color codes <a
-                            href="https://whatsapp-clone-client-mern.herokuapp.com"
-                            className="text-yellow-300 duration-[200ms] underline"
-                            target="_blank"
-                            rel="noreferrer"
-                        >(Link to web app)</a>.</h1>
+                        <h1>• Accomplished real-time communication using WebSockets and Node.js.</h1>
+                        <h1>• Designed front-end of the web app leveraging Material UI components, and React.</h1>
+                        <h1>• Handled user authentication and storage of user, conversation, and message information through MongoDB.</h1>
                     </div>
                 </div>
                 <img
@@ -55,8 +72,9 @@ function Projects() {
                         <h1 className='text-lg'>Tech Stack: <span className='italic'>Next.js, MongoDB, Tailwind CSS</span></h1>
                     </div>
                     <div>
-                        <h1>• Launched a fully responsive social media platform, that allows users to post job seeking/opening information.</h1>
-                        <h1>• Implemented theme toggle, and latest news posting (using Google API) feature on the portal <a
+                        <h1>• Launched a responsive social media platform, allowing users to post job seeking/opening information.</h1>
+                        <h1>• Accomplished theme toggle between 2 themes, and utilized Google API for the latest news posting feature.</h1>
+                        <h1>• Executed MongoDB CRUD operations using Mongoose, and utilized Recoil to manage state of application and improve performance <a
                             href="https://job-search-website.vercel.app/home"
                             className="text-yellow-300 duration-[200ms] underline"
                             target="_blank"
@@ -67,7 +85,7 @@ function Projects() {
                 <img
                     src={jobSearch}
                     alt=""
-                    className="hidden lg:inline-block w-[40%] rounded-md duration-200 hover:scale-105 cursor-pointer"
+                    className="hidden lg:inline-block w-[30%] rounded-md duration-200 hover:scale-105 cursor-pointer"
                 />
             </div>
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between space-x-4">
