@@ -15,8 +15,10 @@ const Home = () => {
             Hey there! This is Dhruvil Bhatt
           </h2>
           <p className="text-gray-300 py-4 max-w-md">
-            I am currently a graduate student at the University of California, Irvine pursuing a masters degree in Computer Science. I attained my BTech degree in ICT with minors in Computational Science from DA-IICT,
-            India during 2018 - 2022.
+
+            I'm a dynamic computer science professional with a Master's degree from the University of California, Irvine, and a Bachelor's from DA-IICT, India. With a track record of success in software development, data analysis, and machine learning, I thrive on solving complex problems and delivering innovative solutions.
+            My diverse experiences include internships at Synaptics Incorporated (CA), HuddleUp (NY), Indian Institute of Technology (IIT) - Bombay, where I engineered Azure-based applications, worked as a full-stack engineer, served as an open-source contributor, and led teams in data curation projects. Proficient in AWS (certified Cloud Practitioner), Azure, Java, Python, and more, I stay updated with the latest technologies to drive continuous improvement.
+            Outside of work, I'm passionate about research, contributing to publications in computational finance, parallel computing, and computational plasma. I'm driven by a commitment to push the boundaries of technology and make a positive impact through collaborative projects.
           </p>
 
           {/* <div>
