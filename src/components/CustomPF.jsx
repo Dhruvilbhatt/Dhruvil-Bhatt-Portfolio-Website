@@ -1,8 +1,8 @@
 import React from 'react'
 import plasma from "../assets/portfolio/plasmaImage.png";
-// import HPC from "../assets/portfolio/HPC.jpg";
+import synaptics from "../assets/portfolio/Synaptics.png";
 import CompFin from "../assets/portfolio/CompFin.jpg";
-// import CV from "../assets/portfolio/CV.jpeg";
+import lms from "../assets/portfolio/LMS.png";
 import IITB from "../assets/portfolio/IITB.png";
 import HuddleUp from "../assets/portfolio/HuddleUp.png";
 
@@ -31,6 +31,46 @@ function CustomPF() {
             </div>
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between space-x-4">
                 <img
+                    src={synaptics}
+                    alt=""
+                    className="hidden lg:inline-block w-[20%] rounded-md duration-200 hover:scale-105 cursor-pointer"
+                />
+                <div style={customStyle} className="p-4 flex flex-col space-y-2">
+                    <div className='flex flex-col space-y-1 text-sky-400'>
+                        <h1 className='text-2xl'><span className='font-bold'>Synaptics</span>, Irvine, California</h1>
+                        <h1 className='text-lg italic'>Audio Software Intern</h1>
+                        <h1 className='text-lg'>June 2023 - September 2023</h1>
+                    </div>
+                    <div>
+                        <h1>• Engineered an Azure-based calling application integrating Microsoft Graph API v1.0 and MSAL (Microsoft Authentication Library) with Synaptics' headsets for audio testing. </h1>
+                        <h1>• Integrated speech recognition feature into the Azure calling application, enabling automatic generation of speech-to-text transcripts for seamless headset debugging purposes.</h1>
+                        <h1>• Created a software application on host side to parse UART (universal asynchronous receiver transmitter) data formatted in binary HCI format. Implemented extraction of debug messages from received data.</h1>
+                        <h1>• Achieved clean production-level RTOS image file for gdaero SDK leveraging static analysis tools.</h1>
+                        <h1>• Honed corporate communication and interpersonal skills: Owned project delivery by pitching to the CEO as well as Japanese counterparts and clients for Synaptics.</h1>
+                    </div>
+                </div>
+            </div>
+            <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between space-x-4">
+                <img
+                    src={lms}
+                    alt=""
+                    className="hidden lg:inline-block w-[30%] rounded-md duration-200 hover:scale-105 cursor-pointer"
+                />
+                <div style={customStyle} className="p-4 flex flex-col space-y-2">
+                    <div className='flex flex-col space-y-1 text-sky-400'>
+                        <h1 className='text-2xl'><span className='font-bold'>HuddleUp</span>, New York, NY</h1>
+                        <h1 className='text-lg italic'>Software Engineer Intern</h1>
+                        <h1 className='text-lg'>March 2022 - June 2022</h1>
+                    </div>
+                    <div>
+                        <h1>• Collaborated with frontend team to build a custom LMS (Learning Management System).</h1>
+                        <h1>• Companies can use this portal to educate their employees by adding their customized teaching modules, customizable workspaces, relevant course channels and quizzes.</h1>
+                        <h1>• Executed web pages for adding new channels, challenges, and quizzes to a specific workspace, which can be utilized by the companies to impart most relevant skillset to its employees. </h1>
+                    </div>
+                </div>
+            </div>
+            <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between space-x-4">
+                <img
                     src={plasma}
                     alt=""
                     className="hidden lg:inline-block w-[20%] rounded-md duration-200 hover:scale-105 cursor-pointer"
@@ -53,7 +93,7 @@ function CustomPF() {
                 <img
                     src={CompFin}
                     alt=""
-                    className="hidden lg:inline-block w-[20%] rounded-md duration-200 hover:scale-105 cursor-pointer"
+                    className="hidden lg:inline-block w-[30%] rounded-md duration-200 hover:scale-105 cursor-pointer"
                 />
                 <div style={customStyle} className="p-4 flex flex-col space-y-2">
                     <div className='flex flex-col space-y-1 text-sky-400'>
@@ -95,25 +135,6 @@ function CustomPF() {
                         >(Fellowship Report)</a>.</h1>
                         <h1>• Explored Drush command line and Drupal UI to migrate Drupal websites.</h1>
                         <h1>• Migrated <span className='italic'>hss.iitb.ac.in</span> from Drupal 7 to 8 without any data loss, using custom-made plugins and other modules.</h1>
-                    </div>
-                </div>
-            </div>
-            <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between space-x-4">
-                <img
-                    src={HuddleUp}
-                    alt=""
-                    className="hidden lg:inline-block w-[20%] rounded-md duration-200 hover:scale-105 cursor-pointer"
-                />
-                <div style={customStyle} className="p-4 flex flex-col space-y-2">
-                    <div className='flex flex-col space-y-1 text-sky-400'>
-                        <h1 className='text-2xl'><span className='font-bold'>HuddleUp</span> (Remote)</h1>
-                        <h1 className='text-lg italic'>Software Engineer Intern</h1>
-                        <h1 className='text-lg'>March 2022 - June 2022</h1>
-                    </div>
-                    <div>
-                        <h1>• Collaborated with frontend team to build a custom LMS (Learning Management System).</h1>
-                        <h1>• Companies can use this portal to educate their employees by adding their customized teaching modules, customizable workspaces, relevant course channels and quizzes.</h1>
-                        <h1>• Executed web pages for adding new channels, challenges, and quizzes to a specific workspace, which can be utilized by the companies to impart most relevant skillset to its employees. </h1>
                     </div>
                 </div>
             </div>

@@ -5,8 +5,9 @@ import CustomPF from "./components/CustomPF";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
-// import Portfolio from "./components/Portfolio";
+import Teaching from "./components/Teaching";
 import SocialLinks from "./components/SocialLinks";
+import Publications from "./components/Publications";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       {/* <Portfolio className="" /> */}
       <CustomPF />
       <Projects />
+      <Teaching />
+      <Publications />
       {/* <Experience /> */}
       <Contact />
       <SocialLinks />
