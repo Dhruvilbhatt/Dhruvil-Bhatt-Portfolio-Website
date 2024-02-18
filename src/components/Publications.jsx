@@ -17,7 +17,7 @@ function Publications() {
     return (
         <div
             name="publications"
-            className="w-full bg-gradient-to-b from-[#cc14c3] to-[#d41313] text-white flex flex-col"
+            className="w-full text-white flex flex-col"
         >
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">

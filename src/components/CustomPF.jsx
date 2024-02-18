@@ -19,7 +19,7 @@ function CustomPF() {
     return (
         <div
             name="experience"
-            className="w-full bg-gradient-to-b from-black to-[#008B8B] text-white flex flex-col"
+            className="w-full text-white flex flex-col"
         >
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
@@ -29,13 +29,13 @@ function CustomPF() {
                     {/* <p className="py-6 text-black text-lg">Check out some of my work right here!</p> */}
                 </div>
             </div>
-            <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between space-x-4">
+            <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between">
                 <img
                     src={synaptics}
                     alt=""
-                    className="hidden lg:inline-block w-[20%] rounded-md duration-200 hover:scale-105 cursor-pointer"
+                    className="hidden lg:inline-block w-[200px] rounded-md duration-200 hover:scale-105 cursor-pointer mr-4"
                 />
-                <div style={customStyle} className="p-4 flex flex-col space-y-2">
+                <div style={customStyle} className="w-full p-4 flex flex-col space-y-2">
                     <div className='flex flex-col space-y-1 text-sky-400'>
                         <h1 className='text-2xl'><span className='font-bold'>Synaptics</span>, Irvine, California</h1>
                         <h1 className='text-lg italic'>Audio Software Intern</h1>
@@ -50,13 +50,13 @@ function CustomPF() {
                     </div>
                 </div>
             </div>
-            <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between space-x-4">
+            <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between">
                 <img
                     src={lms}
                     alt=""
-                    className="hidden lg:inline-block w-[30%] rounded-md duration-200 hover:scale-105 cursor-pointer"
+                    className="hidden lg:inline-block w-[200px] rounded-md duration-200 hover:scale-105 cursor-pointer mr-4"
                 />
-                <div style={customStyle} className="p-4 flex flex-col space-y-2">
+                <div style={customStyle} className="w-full p-4 flex flex-col space-y-2">
                     <div className='flex flex-col space-y-1 text-sky-400'>
                         <h1 className='text-2xl'><span className='font-bold'>HuddleUp</span>, New York, NY</h1>
                         <h1 className='text-lg italic'>Software Engineer Intern</h1>
@@ -69,13 +69,13 @@ function CustomPF() {
                     </div>
                 </div>
             </div>
-            <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between space-x-4">
+            <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between">
                 <img
                     src={plasma}
                     alt=""
-                    className="hidden lg:inline-block w-[20%] rounded-md duration-200 hover:scale-105 cursor-pointer"
+                    className="hidden lg:inline-block w-[200px] rounded-md duration-200 hover:scale-105 cursor-pointer mr-4"
                 />
-                <div style={customStyle} className="p-4 flex flex-col space-y-2">
+                <div style={customStyle} className="w-full p-4 flex flex-col space-y-2">
                     <div className='flex flex-col space-y-1 text-sky-400'>
                         <h1 className='text-2xl'><span className='font-bold'>DA-IICT</span> in association with the <span className='font-bold'>Institute for Plasma Research (IPR)</span>, Gandhinagar, India</h1>
                         <h1 className='text-lg italic'>Research Intern</h1>
@@ -89,13 +89,13 @@ function CustomPF() {
                     </div>
                 </div>
             </div>
-            <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between space-x-4">
+            <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between ">
                 <img
                     src={CompFin}
                     alt=""
-                    className="hidden lg:inline-block w-[30%] rounded-md duration-200 hover:scale-105 cursor-pointer"
+                    className="hidden lg:inline-block w-[200px] rounded-md duration-200 hover:scale-105 cursor-pointer mr-4"
                 />
-                <div style={customStyle} className="p-4 flex flex-col space-y-2">
+                <div style={customStyle} className="w-full p-4 flex flex-col space-y-2">
                     <div className='flex flex-col space-y-1 text-sky-400'>
                         <h1 className='text-2xl'><span className='font-bold '>DA-IICT</span>, Gandhinagar, India</h1>
                         <h1 className='text-lg italic'>Research Intern</h1>
@@ -113,13 +113,13 @@ function CustomPF() {
                     </div>
                 </div>
             </div>
-            <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between space-x-4">
+            <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between">
                 <img
                     src={IITB}
                     alt=""
-                    className="hidden lg:inline-block w-[20%] rounded-md duration-200 hover:scale-105 cursor-pointer"
+                    className="hidden lg:inline-block w-[200px] rounded-md duration-200 hover:scale-105 cursor-pointer mr-4"
                 />
-                <div style={customStyle} className="p-4 flex flex-col space-y-2">
+                <div style={customStyle} className="w-full p-4 flex flex-col space-y-2">
                     <div className='flex flex-col space-y-1 text-sky-400'>
                         <h1 className='text-2xl'><span className='font-bold'>Indian Institute of Technology (IIT) – Bombay</span> (Remote)</h1>
                         <h1 className='text-lg italic'>Summer Intern</h1>

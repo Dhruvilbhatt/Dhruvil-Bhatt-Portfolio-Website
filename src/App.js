@@ -11,7 +11,7 @@ import Publications from "./components/Publications";
 
 function App() {
   return (
-    <div className="">
+    <div className="bg-gradient-to-b from-[#004e92] to-black">
       <div className="flex flex-col space-y-6">
         <NavBar className="" />
         <Home className="" />
