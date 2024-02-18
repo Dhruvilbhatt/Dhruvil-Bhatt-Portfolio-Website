@@ -17,7 +17,7 @@ function Projects() {
     return (
         <div
             name="projects"
-            className="w-full bg-gradient-to-b from-[#008B8B] to-[#ADFF2F] text-white flex flex-col"
+            className="w-full text-white flex flex-col"
         >
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
@@ -43,7 +43,7 @@ function Projects() {
                 <img
                     src={doclab}
                     alt=""
-                    className="hidden lg:inline-block w-[30%] rounded-md duration-200 hover:scale-105 cursor-pointer"
+                    className="hidden lg:inline-block w-[200px] rounded-md duration-200 hover:scale-105 cursor-pointer"
                 />
             </div>
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between space-x-4">
@@ -62,7 +62,7 @@ function Projects() {
                 <img
                     src={chatApp}
                     alt=""
-                    className="hidden lg:inline-block w-[40%] rounded-md duration-200 hover:scale-105 cursor-pointer"
+                    className="hidden lg:inline-block w-[200px] rounded-md duration-200 hover:scale-105 cursor-pointer"
                 />
             </div>
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between space-x-4">
@@ -85,7 +85,7 @@ function Projects() {
                 <img
                     src={jobSearch}
                     alt=""
-                    className="hidden lg:inline-block w-[30%] rounded-md duration-200 hover:scale-105 cursor-pointer"
+                    className="hidden lg:inline-block w-[200px] rounded-md duration-200 hover:scale-105 cursor-pointer"
                 />
             </div>
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col lg:flex-row w-full items-center justify-between space-x-4">
@@ -102,7 +102,7 @@ function Projects() {
                 <img
                     src={worldCuisine}
                     alt=""
-                    className="hidden lg:inline-block w-[40%] rounded-md duration-200 hover:scale-105 cursor-pointer"
+                    className="hidden lg:inline-block w-[200px] rounded-md duration-200 hover:scale-105 cursor-pointer"
                 />
             </div>
         </div>
